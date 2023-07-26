@@ -14,7 +14,7 @@ const Analytics = () => {
             Perferendis quos dolore aut quia maxime labore dolorem voluptates illum,
             nobis numquam ducimus quam corporis, officia vitae! Laborum quo odio exercitationem fuga.
           </p>
-          <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto md:mx-0 py-3'>Começar Agora</button>
+          <button className='button button--secondary md:mx-0'>Começar Agora</button>
         </div>
       </div>
     </div>

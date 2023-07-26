@@ -16,9 +16,8 @@ const Cards = () => {
             <p className='py-2 border-b mx-8'>1 Usuário Garantido</p>
             <p className='py-2 border-b mx-8'>Envio de até 2 GB</p>
           </div>
-          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Iniciar Teste</button>
+          <button className='button button--primary'>Iniciar Teste</button>
         </div>
-
         <div className='w-full shadow-xl flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
           <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Double} alt="/" />
           <h2 className='text-2xl font-bold text-center py-8'>Dois Usuários</h2>
@@ -28,9 +27,8 @@ const Cards = () => {
             <p className='py-2 border-b mx-8'>2 Usuários Garantidos</p>
             <p className='py-2 border-b mx-8'>Envio de até 5 GB</p>
           </div>
-          <button className='bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3'>Iniciar Teste</button>
+          <button className='button button--secondary'>Iniciar Teste</button>
         </div>
-
         <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
           <img className='w-20 mx-auto mt-[-3rem] bg-white' src={Triple} alt="/" />
           <h2 className='text-2xl font-bold text-center py-8'>Três Usuários</h2>
@@ -40,7 +38,7 @@ const Cards = () => {
             <p className='py-2 border-b mx-8'>3 Usuários Garantidos</p>
             <p className='py-2 border-b mx-8'>Envio de até 10 GB</p>
           </div>
-          <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Iniciar Teste</button>
+          <button className='button button--primary'>Iniciar Teste</button>
         </div>
       </div>
     </div>

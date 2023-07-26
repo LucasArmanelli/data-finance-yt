@@ -5,3 +5,18 @@
 body {
   background-color: #000300;
 }
+
+@layer components {
+  .button {
+    @apply w-[200px] rounded-md font-medium my-6 mx-auto py-3;
+  }
+  .button--primary {
+    @apply bg-[#00df9a] text-black hover:bg-[#047551] hover:text-white;
+  }
+  .button--secondary {
+    @apply bg-black text-[#00df9a] hover:bg-[#047551] hover:text-white;
+  }
+  .button--warning {
+    @apply bg-[#df2d00] text-white hover:bg-[#750404] hover:text-white;
+  }
+}

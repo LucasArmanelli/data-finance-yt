@@ -11,7 +11,7 @@ const Newsletter = () => {
       <div className='my-4'>
         <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
           <input className='p-3 flex w-full rounded-md text-black' type="email" placeholder='Digite seu Email'/>
-          <button className='bg-[#00df9a] text-black rounded-md font-medium w-[200px] ml-4 my-6 px-6 py-3'>Cadastrar</button>
+          <button className='button button--primary ml-2'>Cadastrar</button>
         </div>
         <p>
           Nos preocupamos com a proteção dos seus dados. Leia nossa <span className='text-[#00df9a]'> Política de Privacidade</span>

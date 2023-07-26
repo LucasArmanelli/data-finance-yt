@@ -18,7 +18,7 @@ const Hero = () => {
         />
       </div>
         <p className='md:text-2xl text-xl font-bold text-gray-500'>Tenha total controle de suas plataformas BTB, BTC, & SAAS.</p>
-        <button className='bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black'>Saiba Mais</button>
+        <button className='button button--primary'>Saiba Mais</button>
       </div>
     </div>
   )
